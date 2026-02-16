@@ -116,7 +116,7 @@ process.on('uncaughtException', (error) => {
 });
 
 // ─── Login ───────────────────────────────────────────────
-if (!config.token || config.token === 'MTI3NzY5NTg2MjIyNjgxNzA4Ng.GbpyLd.HqTOROQGh2zfH84Xtgvx5eEunT2rYRnphRYxBk') {
+if (!config.token) {
     console.error('\n❌ ═══════════════════════════════════════════════');
     console.error('   DISCORD_TOKEN tidak ditemukan!');
     console.error('   1. Buat file .env di root folder');
