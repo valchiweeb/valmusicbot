@@ -1,0 +1,33 @@
+{
+  "name": "musicbotjs",
+  "version": "1.0.0",
+  "description": "Discord Music Bot with YouTube Cookie Anti-Robot Bypass",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "youtube",
+    "cookies"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@discord-player/opus": "^7.1.0",
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.3.1",
+    "ffmpeg-static": "^5.3.0",
+    "libsodium-wrappers": "^0.8.2",
+    "opusscript": "^0.0.8",
+    "spotify-url-info": "^3.2.16",
+    "tweetnacl": "^1.0.3",
+    "undici": "^7.22.0",
+    "youtube-dl-exec": "^3.1.1"
+  }
+}
